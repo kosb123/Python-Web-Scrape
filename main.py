@@ -1,7 +1,6 @@
-def say_hello(name, age):
-    return f"Hellow {name} you are {age} years old"
+from indeed import extract_indeed_pages, extract_indeed_jobs
 
 
-hellow = say_hello('jun', '23')
+last_indeed_pages = extract_indeed_pages()
 
-print(hellow)
+indeed_jobs = extract_indeed_jobs(last_indeed_pages)
