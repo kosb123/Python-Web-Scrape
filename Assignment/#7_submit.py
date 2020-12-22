@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 import csv
 
 url = "http://www.alba.co.kr/"
-test_url = "http://7-eleven.alba.co.kr/"
 
 
 def extract_brand(url):
